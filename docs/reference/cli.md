@@ -1803,7 +1803,7 @@ SUBCOMMANDS
   ipfs files mkdir <path>        - Make directories.
   ipfs files mv <source> <dest>  - Move files.
   ipfs files read <path>         - Read a file in a given MFS.
-  ipfs files rm <path>...        - Remove a file.
+  ipfs files rm <path>           - Remove a file.
   ipfs files stat <path>         - Display file status.
   ipfs files write <path> <data> - Write to a mutable file in a given
                                    filesystem.
@@ -2048,14 +2048,14 @@ DESCRIPTION
 
 ```
 USAGE
-  ipfs files rm <path>... - Remove a file.
+  ipfs files rm <path> - Remove a file.
 
 SYNOPSIS
-  ipfs files rm [--recursive | -r] [--force] [--] <path>...
+  ipfs files rm [--recursive | -r] [--force] [--] <path>
 
 ARGUMENTS
 
-  <path>... - File to remove.
+  <path> - File to remove.
 
 OPTIONS
 
